@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-authentication-pocs",
+  "version": "1.0.0",
+  "description": "A repository to maintain various POC projects to understand how to build different types of authentication services in node js",
+  "main": "index.js",
+  "scripts": {
+    "dev-start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashrahurikar23/nodejs-authentication-pocs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashrahurikar23/nodejs-authentication-pocs/issues"
+  },
+  "homepage": "https://github.com/yashrahurikar23/nodejs-authentication-pocs#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
